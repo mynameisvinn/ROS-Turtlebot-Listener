@@ -37,4 +37,5 @@ cd catkin_ws
 source ./devel/setup.bash
 rosrun beginner_tutorials listener.py
 ```
+for more information visit http://wiki.ros.org/ROS/Tutorials/ExaminingPublisherSubscriber
 
