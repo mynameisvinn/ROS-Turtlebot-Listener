@@ -27,15 +27,31 @@ for more information, visit http://www.artificialhumancompanions.com/autonomous-
 ### 3) execute listener
 from terminal 3, do
 ```
-roscore
-```
-you need roscore because listener does not have a launch package, and therefore needs to find ros master through roscore.
-
-from terminal 4, do
-```
 cd catkin_ws
 source ./devel/setup.bash
 rosrun beginner_tutorials listener.py
 ```
+theres no need to do $ roscore because "roslaunch turtlebot" launches a roscore. to see how the python listener was modified, go to https://github.com/mynameisvinn/ROS-Turtlebot-Listener/blob/master/src/beginner_tutorials/scripts/listener.py
+
 for more information visit http://wiki.ros.org/ROS/Tutorials/ExaminingPublisherSubscriber
 
+## faqs
+
+### create ros workspace and package
+* http://wiki.ros.org/catkin/Tutorials/create_a_workspace
+* http://wiki.ros.org/catkin/Tutorials/CreatingPackage
+
+### create publisher/subscriber
+* http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
+
+### finding nodes
+```
+rosnode list #list active nodes
+rosnode info /key_teleop #examine topics/services for a specific node eg key_teleop
+```
+
+### topics
+```
+rostopic list #list active topics
+rostopic info /cmd_vel_mux/input/teleop #examine nodes subscribed/publishing to that node
+```
