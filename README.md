@@ -28,7 +28,7 @@ for more information, visit http://www.artificialhumancompanions.com/autonomous-
 from terminal 3, do
 ```
 cd catkin_ws
-source ./devel/setup.bash
+source ./devel/setup.bash # always source
 rosrun beginner_tutorials listener.py
 ```
 theres no need to do $ roscore because "roslaunch turtlebot" launches a roscore. to see how the python listener was modified, go to https://github.com/mynameisvinn/ROS-Turtlebot-Listener/blob/master/src/beginner_tutorials/scripts/listener.py
