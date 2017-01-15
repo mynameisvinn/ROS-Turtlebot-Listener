@@ -7,5 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/home/ubuntu/catkin_ws/devel/lib:/opt/ros/indigo/lib:/usr/local/lib:/usr/local/cuda-6.5/lib:/usr/local/lib:/usr/local/lib"
+export CMAKE_PREFIX_PATH="/home/ubuntu/catkin_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/ubuntu/catkin_ws/devel/lib:/opt/ros/indigo/lib:/usr/local/cuda-6.5/lib"
+export PATH="/opt/ros/indigo/bin:/usr/local/cuda-6.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PKG_CONFIG_PATH="/home/ubuntu/catkin_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/ubuntu/catkin_ws/build"
+export ROS_PACKAGE_PATH="/home/ubuntu/catkin_ws/src:$ROS_PACKAGE_PATH"
