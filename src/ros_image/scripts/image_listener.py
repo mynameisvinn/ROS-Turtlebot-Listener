@@ -31,7 +31,7 @@ def image_callback(msg):
 
 def main():
     rospy.init_node('image_listener') # create a new node called image_listener
-    topic = "/cameras/rgb/image_raw" # what topic to subscribe to?
+    topic = "/camera/rgb/image_raw" # what topic to subscribe to?
     
     # subscribe applies callback when a new Image is posted to topic
     # remember ros topics are strongly typed
