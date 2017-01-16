@@ -1,2 +1,2 @@
-beginner_tutorials:ros_caffe
+ros_astra_camera:ros_astra_launch:ros_caffe:ros_heartbeat
 -DCATKIN_DEVEL_PREFIX=/home/ubuntu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/catkin_ws/install -G Unix Makefiles
