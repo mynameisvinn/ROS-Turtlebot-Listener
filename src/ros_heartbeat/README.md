@@ -1,7 +1,9 @@
 # ros heartbeat
 
 ## what is this?
+create subscriber that listens to 'cmd_vel_mux/input/teleop' as the user drives the turtleboet.
 
+## why?
 learn ros by creating nodes, topics, and all that other good stuff.
 
 ## run
@@ -41,13 +43,17 @@ for more information visit http://wiki.ros.org/ROS/Tutorials/ExaminingPublisherS
 ## faqs
 
 ### create ros workspace and package
-http://wiki.ros.org/catkin/Tutorials/create_a_workspace
-http://wiki.ros.org/catkin/Tutorials/CreatingPackage
+* http://wiki.ros.org/catkin/Tutorials/create_a_workspace
+* http://wiki.ros.org/catkin/Tutorials/CreatingPackage
+
 ### create publisher/subscriber
-http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
+* http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
+
 ### finding nodes
-rosnode list #list active nodes
-rosnode info /key_teleop #examine topics/services for a specific node eg key_teleop
-### topics
-rostopic list #list active topics
-rostopic info /cmd_vel_mux/input/teleop #examine nodes subscribed/publishing to that node
+`rosnode list #list active nodes`
+`rosnode info /key_teleop #examine topics/services for a specific node eg key_teleop`
+
+### tell me about my topics
+`rostopic list #list active topics`
+`rostopic info /cmd_vel_mux/input/teleop #examine nodes subscribed/publishing to that node`
+* manually publish to topics `rostopic pub -r10 /hello std_msgs/String "hello"`
