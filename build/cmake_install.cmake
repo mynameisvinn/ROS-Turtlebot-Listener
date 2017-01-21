@@ -119,6 +119,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/ubuntu/catkin_ws/build/gtest/cmake_install.cmake")
   INCLUDE("/home/ubuntu/catkin_ws/build/ros_astra_launch/cmake_install.cmake")
   INCLUDE("/home/ubuntu/catkin_ws/build/ros_heartbeat/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/catkin_ws/build/ros_straightline/cmake_install.cmake")
   INCLUDE("/home/ubuntu/catkin_ws/build/ros_caffe/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
