@@ -33,6 +33,7 @@ def getKey():
     rlist, _, _ = select.select([sys.stdin], [], [], 0.1)
     if rlist:
         key = sys.stdin.read(1)
+        print '>>>', key
         key = 'i' # turtlebot goes forward regardless of input key
     else:
         key = ''
@@ -50,7 +51,9 @@ if __name__=="__main__":
     settings = termios.tcgetattr(sys.stdin)
     
     rospy.init_node('turtlebot_teleop')
-    pub = rospy.Publisher('~cmd_vel', Twist, queue_size=5)
+    # pub = rospy.Publisher('~cmd_vel', Twist, queue_size=5)
+    pub = rospy.Publisher('cmd_vel_mux/input/teleop', Twist, queue_size=5) # correct topic
+    
 
     x = 0
     th = 0
