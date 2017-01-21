@@ -54,6 +54,6 @@ for more information visit http://wiki.ros.org/ROS/Tutorials/ExaminingPublisherS
 `rosnode info /key_teleop #examine topics/services for a specific node eg key_teleop`
 
 ### tell me about my topics
-`rostopic list #list active topics`
-`rostopic info /cmd_vel_mux/input/teleop #examine nodes subscribed/publishing to that node`
+* show topics `rostopic list`
+* examine nodes subscribed/publishing to that node `rostopic info /cmd_vel_mux/input/teleop`
 * manually publish to topics `rostopic pub -r10 /hello std_msgs/String "hello"`
