@@ -14,7 +14,7 @@ git clone https://github.com/mynameisvinn/ROS-Turtlebot-Listener
 cd catkin_ws
 catkin_make # need to use cmake even for python nodes
 ```
-(more information on pub/sub)[http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29]
+[more information on pub/sub](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)
 
 2) run turtlebot
 
