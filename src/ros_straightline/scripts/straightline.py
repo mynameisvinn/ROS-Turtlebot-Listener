@@ -1,7 +1,12 @@
+#!/usr/bin/env python
+
 import rospy
 from geometry_msgs.msg import Twist
 import sys, select, termios, tty
 
+msg = """
+Control Your Turtlebot!
+"""
 
 moveBindings = {
         'i':(1,0),
