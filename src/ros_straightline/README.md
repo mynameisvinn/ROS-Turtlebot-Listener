@@ -2,7 +2,7 @@
 
 ## what is this?
 
-modify keyboard teleop script. 
+modifies keyboard teleop script. make barnacle move forward, regardless of user input key.
 
 ## why modify teleop?
 
