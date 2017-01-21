@@ -634,6 +634,21 @@ clean: ros_heartbeat/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory ros_straightline
+
+# Convenience name for "all" pass in the directory.
+ros_straightline/all:
+.PHONY : ros_straightline/all
+
+# Convenience name for "clean" pass in the directory.
+ros_straightline/clean:
+.PHONY : ros_straightline/clean
+
+# Convenience name for "preinstall" pass in the directory.
+ros_straightline/preinstall:
+.PHONY : ros_straightline/preinstall
+
+#=============================================================================
 # Directory level rules for directory ros_caffe
 
 # Convenience name for "all" pass in the directory.

@@ -7,10 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ubuntu/catkin_ws/devel:/opt/ros/indigo"
-export CPATH="/home/ubuntu/catkin_ws/devel/include:/opt/ros/indigo/include"
-export LD_LIBRARY_PATH="/home/ubuntu/catkin_ws/devel/lib:/opt/ros/indigo/lib:/usr/local/cuda-6.5/lib"
-export PKG_CONFIG_PATH="/home/ubuntu/catkin_ws/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
 export PWD="/home/ubuntu/catkin_ws/build"
-export PYTHONPATH="/home/ubuntu/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages"
-export ROS_PACKAGE_PATH="/home/ubuntu/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks"
