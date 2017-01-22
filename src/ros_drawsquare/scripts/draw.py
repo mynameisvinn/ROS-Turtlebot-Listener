@@ -31,16 +31,16 @@ def DrawASquare():
 
 	#two keep drawing squares.  Go forward for 2 seconds (10 x 5 HZ) then turn for 2 second
     while not rospy.is_shutdown():
-    # go forward 0.4 m (2 seconds * 0.2 m / seconds)
-    rospy.loginfo("Going Straight")
-        for x in range(0,10): # since it's at 5hz, 10 iterations moves it for 2 seconds
-            cmd_vel.publish(move_cmd) # for each iter, post command
-            r.sleep()
-    # turn 90 degrees
-    rospy.loginfo("Turning")
-        for x in range(0,10):
-            cmd_vel.publish(turn_cmd)
-            r.sleep()            
+        # go forward 0.4 m (2 seconds * 0.2 m / seconds)
+        rospy.loginfo("Going Straight")
+            for x in range(0,10): # since it's at 5hz, 10 iterations moves it for 2 seconds
+                cmd_vel.publish(move_cmd) # for each iter, post command
+                r.sleep()
+        # turn 90 degrees
+        rospy.loginfo("Turning")
+            for x in range(0,10):
+                cmd_vel.publish(turn_cmd)
+                r.sleep()            
         
 def myshutdowncallback(self):
     rospy.loginfo("Stop Drawing Squares")
