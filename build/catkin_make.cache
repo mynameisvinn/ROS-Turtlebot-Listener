@@ -1,2 +1,2 @@
-ros_astra_launch:ros_caffe:ros_heartbeat:ros_straightline
+ros_astra_launch:ros_caffe:ros_drawsquare:ros_heartbeat:ros_straightline
 -DCATKIN_DEVEL_PREFIX=/home/ubuntu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/catkin_ws/install -G Unix Makefiles

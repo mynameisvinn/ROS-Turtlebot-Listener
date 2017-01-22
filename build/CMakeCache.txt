@@ -420,6 +420,12 @@ ros_caffe_BINARY_DIR:STATIC=/home/ubuntu/catkin_ws/build/ros_caffe
 ros_caffe_SOURCE_DIR:STATIC=/home/ubuntu/catkin_ws/src/ros_caffe
 
 //Value Computed by CMake
+ros_drawsquare_BINARY_DIR:STATIC=/home/ubuntu/catkin_ws/build/ros_drawsquare
+
+//Value Computed by CMake
+ros_drawsquare_SOURCE_DIR:STATIC=/home/ubuntu/catkin_ws/src/ros_drawsquare
+
+//Value Computed by CMake
 ros_straightline_BINARY_DIR:STATIC=/home/ubuntu/catkin_ws/build/ros_straightline
 
 //Value Computed by CMake
@@ -577,7 +583,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=6
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

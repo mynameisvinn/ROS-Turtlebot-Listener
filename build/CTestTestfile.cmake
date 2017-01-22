@@ -7,5 +7,6 @@
 SUBDIRS(gtest)
 SUBDIRS(ros_astra_launch)
 SUBDIRS(ros_heartbeat)
+SUBDIRS(ros_drawsquare)
 SUBDIRS(ros_straightline)
 SUBDIRS(ros_caffe)
