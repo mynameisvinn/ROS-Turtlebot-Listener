@@ -42,7 +42,7 @@ def DrawASquare():
             cmd_vel.publish(turn_cmd)
             r.sleep()            
         
-def myshutdowncallback(self):
+def myshutdowncallback():
     rospy.loginfo("Stop Drawing Squares")
     cmd_vel.publish(Twist())
     rospy.sleep(1)
