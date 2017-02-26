@@ -118,10 +118,16 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/ubuntu/catkin_ws/build/gtest/cmake_install.cmake")
   INCLUDE("/home/ubuntu/catkin_ws/build/ros_astra_launch/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/catkin_ws/build/turtlebot_apps/turtlebot_apps/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/catkin_ws/build/turtlebot_apps/turtlebot_rapps/cmake_install.cmake")
   INCLUDE("/home/ubuntu/catkin_ws/build/ros_heartbeat/cmake_install.cmake")
   INCLUDE("/home/ubuntu/catkin_ws/build/ros_drawsquare/cmake_install.cmake")
   INCLUDE("/home/ubuntu/catkin_ws/build/ros_straightline/cmake_install.cmake")
   INCLUDE("/home/ubuntu/catkin_ws/build/ros_caffe/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/catkin_ws/build/turtlebot_apps/turtlebot_actions/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/catkin_ws/build/turtlebot_apps/turtlebot_calibration/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/catkin_ws/build/turtlebot_apps/turtlebot_follower/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/catkin_ws/build/turtlebot_apps/turtlebot_navigation/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

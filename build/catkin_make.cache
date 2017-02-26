@@ -1,2 +1,2 @@
-ros_astra_launch:ros_caffe:ros_drawsquare:ros_heartbeat:ros_straightline
+ros_astra_launch:ros_caffe:ros_drawsquare:ros_heartbeat:ros_straightline:turtlebot_apps/turtlebot_actions:turtlebot_apps/turtlebot_apps:turtlebot_apps/turtlebot_calibration:turtlebot_apps/turtlebot_follower:turtlebot_apps/turtlebot_navigation:turtlebot_apps/turtlebot_rapps
 -DCATKIN_DEVEL_PREFIX=/home/ubuntu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/catkin_ws/install -G Unix Makefiles
